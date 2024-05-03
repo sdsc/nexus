@@ -1,0 +1,10 @@
+name: ollama
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - jupyterlab=4.0.11
+  - ollama=0.1.17
