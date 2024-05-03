@@ -1,0 +1,16 @@
+name: hnn
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - mpi4py
+  - pip:
+      - voila
+      - neuron
+      - hnn_core
